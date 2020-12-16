@@ -12,9 +12,11 @@ GEM
     ffi2-generators (0.1.1)
     jruby-openssl (0.7.4)
       bouncy-castle-java
+    mini_portile2 (2.4.0)
     minitest (2.6.1)
-    nokogiri (1.5.0)
-    nokogiri (1.5.0-java)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.10-java)
     racc (1.4.10)
     rake (0.9.2)
     redcarpet (1.17.2)
@@ -232,7 +234,7 @@ PLATFORMS
 DEPENDENCIES
   jruby-openssl (~> 0.7.4)
   minitest (~> 2.6.1)
-  nokogiri (~> 1.5.0)
+  nokogiri (~> 1.10.10)
   racc
   rake (~> 0.9.2)
   recurly!
