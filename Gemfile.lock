@@ -17,7 +17,7 @@ GEM
     nokogiri (1.5.0-java)
     racc (1.4.10)
     rake (0.9.2)
-    redcarpet (1.17.2)
+    redcarpet (3.5.1)
     rubysl (2.0.15)
       rubysl-abbrev (~> 2.0)
       rubysl-base64 (~> 2.0)
